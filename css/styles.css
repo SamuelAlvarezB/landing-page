@@ -133,3 +133,24 @@ button {
     font-weight: bolder;
     margin: 0;
 }
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-card {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 900px;
+    border-radius: 12px;
+    margin: 96px;
+    padding: 24px;
+}
+
+.signup-card button {
+    align-self: center;
+    border-color: white;
+    padding: 8px 16px;
+}
