@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 ul {
@@ -88,6 +89,7 @@ button {
     justify-content: center;
     gap: 36px;
     flex-wrap: wrap;
+    margin-bottom: 32px;
 }
 
 .image-card {
@@ -149,8 +151,20 @@ button {
     padding: 24px;
 }
 
+.signup-card-left {
+    color: white;
+}
+
 .signup-card button {
     align-self: center;
     border-color: white;
     padding: 8px 16px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 16px;
 }
